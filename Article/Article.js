@@ -174,9 +174,7 @@ function articleMaker(articleDataObj) {
 
 }
 
-
-
-articles = document.querySelector('.articles')
+const articles = document.querySelector('.articles')
 
 data.forEach(data => {
   const article = articleMaker(data)
